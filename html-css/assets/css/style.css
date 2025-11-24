@@ -33,29 +33,34 @@ grid
 .grid {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
   justify-content: center;
 }
-.grid4-4 {
-
+.grid4-4 > .apartment{
+  width: calc(25% - 20px);
 }
-.grid2-2 {}
-.grid6-1 {}
+.grid2-2 > .poke-image {
+  width: 50%;
+}
+.grid6-1 > .title-image {
+  width: 16.6%;
+}
 
 /*
-apartment
+グリッドマンション
 */
 .grid-apartment {
   background-color: #323273;
-  margin: 10px 25%;
   border: solid 5px #333;
   padding: 20px;
+  width: 50%;
+  margin: 0 auto;
 }
 .apartment {
   border: solid 2px #333;
   height: 60px;
-  width: 20px;
   margin: 10px;
-  width: calc(25% - 50px);
 }
 .apartment-light {
   background-color: #ffff00;
@@ -63,3 +68,12 @@ apartment
 .apartment-dark {
   background-color: #666;
 }
+/*
+ヒノアラシの進化系
+*/
+.hino-familiy{}
+.poke-image {}
+/*
+title images
+*/
+.title-image {}
