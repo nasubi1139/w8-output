@@ -29,8 +29,8 @@ $click.addEventListener("click", ()=> {
   };
 });
 
-console.log(localStorage.getItem("Email"));
-console.log(localStorage.getItem("password"));
+// console.log(localStorage.getItem("Email"));
+// console.log(localStorage.getItem("password"));
 
 // ローカルストレージの情報をHTML要素に挿入
 const loginEmail = localStorage.getItem("Email");
