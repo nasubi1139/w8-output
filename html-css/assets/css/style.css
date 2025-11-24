@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/*
+base
+*/
+body {
+  background-color: #666;
+}
+.page-headline {
+  font-size: 50px;
+  text-align: center;
+  background-color: #fff;
+  width: 75%;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: double 5px #333;
+}
+/*
+section
+*/
+.section {
+  text-align: center;
+  background-color: #fff;
+  margin: 10px 50px;
+  border-radius: 5px;
+}
+.section-headline {
+  font-size: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+/*
+button
+*/
+.button {
+  width: min(500px, 50%);
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px #666 ;
+  margin: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+/*
+grid
+*/
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+.grid4-4 > .apartment{
+  width: calc(25% - 20px);
+}
+.grid2-2 > .hino-familiy-image {
+  width: 50%;
+}
+.grid6-1 > .title-image {
+  width: 16.6%;
+}
+
+/*
+グリッドマンション
+*/
+.grid-apartment {
+  background-color: #323273;
+  border: solid 5px #333;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+.apartment {
+  border: solid 2px #333;
+  height: 60px;
+  margin: 10px;
+}
+.apartment-light {
+  background-color: #ffff00;
+}
+.apartment-dark {
+  background-color: #666;
+}
+/*
+ヒノアラシの進化系
+*/
+.hino-familiy{
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #333;
+}
+.hino-familiy-image {
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/*
+title images
+*/
+.hino-title{
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #333;
+}
+/* .title-image {} */
+
+/*
+ログインフォーム
+*/
+.login-form {
+  background-color: #fff;
+  border: solid 1px #333;
+  height: auto;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #3c6d96;
+  text-align: center;
+}
+.form-headline {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.form-table {
+  margin: 0 auto;
+  width: 60%;
+}
+.table-headline {
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+.table-input {
+  text-align: left;
+}
+.Email {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.password {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.form-button {
+  background-color: #0000a8;
+  color: #fff;
+  text-shadow: 2px 2px 2px #333;
+  margin: 30px;
+}
