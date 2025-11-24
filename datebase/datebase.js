@@ -9,7 +9,9 @@ const $Email = document.getElementById("Email");
 const $password = document.getElementById("password")
 
 
-$click.addEventListener("click", ()=> {
+$click.addEventListener("click", function(event) {
+  event.preventDefault(); 
+
   localStorage.setItem("Email",$Email.value);
   localStorage.setItem("password",$password.value);
 
