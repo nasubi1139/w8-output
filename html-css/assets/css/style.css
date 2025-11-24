@@ -40,7 +40,7 @@ grid
 .grid4-4 > .apartment{
   width: calc(25% - 20px);
 }
-.grid2-2 > .poke-image {
+.grid2-2 > .hino-familiy-image {
   width: 50%;
 }
 .grid6-1 > .title-image {
@@ -71,9 +71,24 @@ grid
 /*
 ヒノアラシの進化系
 */
-.hino-familiy{}
-.poke-image {}
+.hino-familiy{
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #333;
+}
+.hino-familiy-image {
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
 /*
 title images
 */
+.hino-title{
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #333;
+}
 .title-image {}
