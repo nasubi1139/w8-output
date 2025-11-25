@@ -10,7 +10,7 @@ const $password = document.getElementById("password")
 
 
 $click.addEventListener("click", (event)=> {
-event.preventDefault();
+  event.preventDefault();
 
   localStorage.setItem("Email",$Email.value);
   localStorage.setItem("password",$password.value);
@@ -39,7 +39,6 @@ const loginEmail = localStorage.getItem("Email");
 const loginPass = localStorage.getItem("password");
 
 if((loginEmail !== null) && (loginPass !== null)) {
-  // console.log("Hello")
   $Email.value = localStorage.getItem("Email");
   $password.value = localStorage.getItem("password");
 };
