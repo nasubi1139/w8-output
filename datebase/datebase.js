@@ -9,13 +9,13 @@ const $Email = document.getElementById("Email");
 const $password = document.getElementById("password")
 
 
-$click.addEventListener("click", function(event) {
-  event.preventDefault(); 
+$click.addEventListener("click", (event)=> {
+event.preventDefault();
 
   localStorage.setItem("Email",$Email.value);
   localStorage.setItem("password",$password.value);
 
-// 空欄かつローカルストレージに値がない場合に変更
+
   if(localStorage.getItem("Email") === "") {
     localStorage.removeItem("Email");
   }else {
