@@ -15,7 +15,7 @@ $click.addEventListener("click", function(event) {
   localStorage.setItem("Email",$Email.value);
   localStorage.setItem("password",$password.value);
 
-
+// 空欄かつローカルストレージに値がない場合に変更
   if(localStorage.getItem("Email") === "") {
     localStorage.removeItem("Email");
   }else {
